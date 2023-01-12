@@ -1025,7 +1025,7 @@ async function whoAreYou() {
         position: 'center',
         imageAlt: 'mirotalk-name',
         imageUrl: welcomeImg,
-        title: 'Enter your name',
+        title: 'Nhập tên của bạn',
         input: 'text',
         inputValue: window.localStorage.peer_name ? window.localStorage.peer_name : '',
         html: `<br>
@@ -1033,7 +1033,7 @@ async function whoAreYou() {
             <button id="initAudioBtn" class="${className.audioOn}" onclick="handleAudio(event, true)"></button>
             <button id="initVideoBtn" class="${className.videoOn}" onclick="handleVideo(event, true)"></button>
         </div>`,
-        confirmButtonText: `Join meeting`,
+        confirmButtonText: `tham gia cuộc họp`,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
         },

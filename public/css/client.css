@@ -189,6 +189,10 @@ body {
 #buttonsBar #leaveRoomBtn {
     color: #ff2d00;
 }
+#buttonsBar #aboutBtn {
+    color: #ff2d00;
+    display: none !important;
+}
 
 .fa-microphone-slash,
 .fa-video-slash {
